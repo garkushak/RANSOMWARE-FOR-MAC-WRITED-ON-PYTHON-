@@ -1,5 +1,5 @@
 from Crypto.PublicKey import RSA
-
+#Генерация ключей
 rsa_key = RSA.generate(2048)
 
 private_key = rsa_key.export_key()
